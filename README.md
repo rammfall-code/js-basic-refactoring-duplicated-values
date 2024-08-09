@@ -1,6 +1,8 @@
 # template-vanilla
 
-## Text
+## Fix duplication in code
+- Fix duplication of values and use additional variables for this
+- Fix names of existing variables
 
 ## We have a problem with loading script and access to html element due loading. Please, fix the place of script in html file
 
