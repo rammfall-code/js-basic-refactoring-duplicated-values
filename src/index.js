@@ -1,11 +1,9 @@
-let a = prompt('Enter your name');
+function getName() {
+  const name = prompt('Enter your name');
 
-alert(`Hi, ${a}`);
+  return `Hi, ${name}`;
+}
 
-let b = prompt('Enter your name');
-
-alert(`Hi, ${b}`);
-
-let c = prompt('Enter your name');
-
-alert(`Hi, ${c}`);
+alert(getName());
+alert(getName());
+alert(getName());
